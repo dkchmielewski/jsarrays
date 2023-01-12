@@ -122,3 +122,13 @@ console.log(filteredArray);
 // console.log(sum);
 
 const sum = prices.reduce((prevValue, curValue) => prevValue + curValue, 0);
+
+const data = 'new york;l0.99;2000';
+const transformedData = data.split(';');
+transformedData[1] = +transformedData[1];
+console.log(transformedData);
+
+const nameFragments = ['Max', 'Schwarz'];
+const name = nameFragments.join(' ');
+console.log(name);
+
